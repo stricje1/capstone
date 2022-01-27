@@ -1,6 +1,6 @@
 #' ---
 #' title: "Ngram Function for Shiny App"
-#' author: "Mark Blackmore"
+#' author: "Jeffrey Strickland"
 #' date: "`r format(Sys.Date())`"
 #' output: github_document
 #' ---
