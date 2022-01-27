@@ -12,10 +12,9 @@
 # })
 
 #' Load Training Data, created by `04A_Task_Script.R`
-uni_words <-  readRDS("./uni_words.rds")
-bi_words <-   readRDS("./bi_words.rds")
-tri_words  <- readRDS("./tri_words.rds")
-quad_words <- readRDS("./quad_words.rds")
+bi_words <- readRDS("./app_data/bi_words_fast.rds")
+tri_words  <- readRDS("./app_data/tri_words_fast.rds")
+quad_words <- readRDS("./app_data/quad_words_fast.rds")
 
 #' Create Ngram Matching Functions
 bigram <- function(input_words){
