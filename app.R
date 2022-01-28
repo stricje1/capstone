@@ -136,6 +136,6 @@ server <- function(input, output) {
   })
   
 }
-
+#' https://stricje1.shinyapps.io/next_word_predictor/
 #' Run the application 
 shinyApp(ui = ui, server = server)
